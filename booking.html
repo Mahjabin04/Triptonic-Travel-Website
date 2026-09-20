@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripTonic | Booking</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="booking.js" defer></script>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div id="menu-btn" class="fa-solid fa-bars"></div>
+
+    <a href="index.html" class="logo">
+      <img src="images/beach.png" alt="TripTonic logo" class="logo-icon">TripTonic
+    </a>
+
+    <nav class="navbar">
+      <a href="index.html#home">home</a>
+      <a href="index.html#about">about</a>
+      <a href="index.html#destination">destination</a>
+      <a href="index.html#services">services</a>
+      <a href="index.html#gallery">gallery</a>
+      <a href="index.html#blogs">blogs</a>
+    </nav>
+
+    <a href="index.html#book-form" class="btn">book now</a>
+  </header>
+
+  <section class="booking-page" id="booking-page">
+    <div class="heading">
+      <span>booking</span>
+      <h1>Confirm Your Trip</h1>
+    </div>
+
+    <div class="booking-grid">
+      <!-- summary -->
+      <div class="booking-summary">
+        <h3>Your Selection</h3>
+
+        <div class="summary-row">
+          <span>Destination</span>
+          <strong id="sum-place">Not set</strong>
+        </div>
+
+        <div class="summary-row">
+          <span>Date</span>
+          <strong id="sum-date">Not set</strong>
+        </div>
+
+        <div class="summary-row">
+          <span>Travelers</span>
+          <strong id="sum-people">Not set</strong>
+        </div>
+
+        <p class="booking-note">
+          Review the details and submit your request. We will contact you to confirm availability and pricing.
+        </p>
+      </div>
+
+      <!-- customer form -->
+      <div class="booking-form-card">
+        <h3>Traveler Details</h3>
+
+        <form id="bookingForm">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" name="fullName" type="text" placeholder="Your name" required>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+880..." required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="field">
+            <label for="notes">Special Requests</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Diet, hotel preference, pickup location..."></textarea>
+          </div>
+
+          <button class="btn" type="submit">submit booking request</button>
+          <p class="form-hint" id="formHint"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

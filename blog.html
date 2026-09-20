@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripTonic | Blog</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+  <script src="blog.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div id="menu-btn" class="fa-solid fa-bars"></div>
+
+    <a href="index.html" class="logo">
+      <img src="images/beach.png" alt="TripTonic logo" class="logo-icon">TripTonic
+    </a>
+
+    <nav class="navbar">
+      <a href="index.html#home">home</a>
+      <a href="index.html#about">about</a>
+      <a href="index.html#destination">destination</a>
+      <a href="index.html#services">services</a>
+      <a href="index.html#gallery">gallery</a>
+      <a href="index.html#blogs">blogs</a>
+    </nav>
+
+    <a href="index.html#book-form" class="btn">book now</a>
+  </header>
+
+  <!-- Reading progress -->
+  <div class="read-progress" aria-hidden="true">
+    <div class="read-progress-bar" id="readProgressBar"></div>
+  </div>
+
+  <main class="blog-page">
+
+    <section class="blog-hero-split">
+      <div class="blog-hero-media" id="blogHeroMedia" role="img" aria-label="Blog cover image"></div>
+
+      <div class="blog-hero-info">
+        <div class="blog-breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="index.html#blogs">Blogs</a>
+          <span>/</span>
+          <span id="blogBreadcrumbTitle">Post</span>
+        </div>
+
+        <div class="blog-badges">
+          <span class="badge" id="blogCategory">Travel</span>
+          <span class="badge subtle"><i class="fa-solid fa-clock"></i> <span id="blogReadTime">5 min read</span></span>
+        </div>
+
+        <h1 id="blogTitle">Loading...</h1>
+
+        <div class="blog-meta">
+          <span><i class="fa-solid fa-calendar"></i> <span id="blogDate">-</span></span>
+          <span><i class="fa-solid fa-user"></i> <span id="blogAuthor">TripTonic</span></span>
+        </div>
+
+        <p class="blog-dek" id="blogDek">
+          Loading summary...
+        </p>
+
+        <div class="blog-hero-actions">
+          <a class="btn" id="blogCtaBtn" href="index.html#book-form">book this trip</a>
+          <a class="btn secondary" href="#article">read guide</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- body section -->
+    <section class="blog-body" id="article">
+      <div class="blog-layout">
+        <article class="blog-article">
+          <div class="blog-content" id="blogContent">
+            <p>Loading content...</p>
+          </div>
+
+          <div class="author-box">
+            <div class="author-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="author-info">
+              <h3>TripTonic Editorial</h3>
+              <p>Short, practical guides for Bangladesh travel, focused on timing, comfort, and realistic plans.</p>
+            </div>
+          </div>
+
+          <div class="blog-cta-strip">
+            <div class="cta-text">
+              <h3>Want us to plan it for you?</h3>
+              <p>Send a booking request. We will confirm timing, hotel options, and final cost.</p>
+            </div>
+            <a class="btn" id="blogCtaBtn2" href="index.html#book-form">open booking form</a>
+          </div>
+        </article>
+
+        <aside class="blog-side">
+          <div class="side-card">
+            <h3>Popular posts</h3>
+            <a class="side-link" href="blog.html?post=sundarbans">Sundarbans: first-timer guide</a>
+            <a class="side-link" href="blog.html?post=coxs-bazar-quiet-spots">Cox’s Bazar: quiet spots and timing</a>
+            <a class="side-link" href="blog.html?post=sylhet-tea-weekend">Sylhet: tea-country weekend route</a>
+          </div>
+
+          <div class="side-card">
+            <h3>Quick booking</h3>
+            <p>Already decided? Go straight to the booking form.</p>
+            <a class="btn secondary" href="index.html#destination">choose destination</a>
+            <a class="btn" href="index.html#book-form">open booking form</a>
+          </div>
+
+          <div class="side-card">
+            <h3>Checklist</h3>
+            <ul class="side-check">
+              <li><i class="fa-solid fa-check"></i> Confirm dates</li>
+              <li><i class="fa-solid fa-check"></i> Choose package</li>
+              <li><i class="fa-solid fa-check"></i> Group size</li>
+              <li><i class="fa-solid fa-check"></i> Share pickup point</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

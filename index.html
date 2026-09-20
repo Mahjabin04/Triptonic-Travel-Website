@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+
+</head>
+<body>
+    <!-- header-->
+    <header class="header">
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+
+        <a href="#" class="logo"> <img src="images/beach.png" alt="TripTonic logo" class="logo-icon">TripTonic</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#destination">destination</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <a href="#book-form" class="btn">book now</a>
+    </header>
+    <!-- header end -->
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <span>discover bangladesh</span>
+            <h3>Where Every Journey Feels Home</h3>
+            <p>Explore the rivers, hills, forests, and coastlines of Bangladesh. From peaceful villages to vibrant cities, we curate meaningful travel experiences that connect you with nature, culture, and people.</p>
+            <a href="#" class="btn">book now</a>
+        </div>
+
+    </section>
+<!-- home end -->
+
+<!-- booking start -->
+<section class="book-form" id="book-form">
+    <form id="searchForm">
+      <div class="inputBox">
+        <span>where to</span>
+        <input id="placeInput" type="text" placeholder="place name" required>
+      </div>
+  
+      <div class="inputBox">
+        <span>when</span>
+        <input id="dateInput" type="date" required>
+      </div>
+  
+      <div class="inputBox">
+        <span>package</span>
+        <select id="packageInput">
+          <option value="">select package</option>
+          <option value="Budget">Budget</option>
+          <option value="Standard">Standard</option>
+          <option value="Premium">Premium</option>
+        </select>
+      </div>
+  
+      <div class="inputBox">
+        <span>how many</span>
+        <input id="peopleInput" type="number" placeholder="number of travelers" min="1" step="1" required>
+      </div>
+  
+      <input type="submit" value="find now" class="btn">
+    </form>
+  </section>
+  
+<!-- booking end -->
+
+<!-- about start -->
+<section class="about" id="about">
+    <div class="video-container">
+        <video src="images/video_1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/video_1.mp4"></span>
+                <span class="control-btn" data-src="images/video_2.mp4"></span>
+                <span class="control-btn" data-src="images/video_3.mp4"></span>
+              </div>
+    </div>
+    <div class="content">
+        <span>Why Travel With Us</span>
+        <h3>Discover Bangladesh, The Way It Truly Is</h3>
+        <p>From quiet rivers and endless green hills to vibrant cities and coastal escapes, TripTonic helps you experience Bangladesh beyond the  usual routes. We design thoughtful journeys that reflect the country’s natural beauty, rich culture, and everyday life.
+            Whether you seek peaceful landscapes, heritage destinations, or local experiences, our trips are crafted to feel personal, comfortable, and meaningful — just like home.
+            </p>
+        <a href="#destination" class="btn">Explore More</a>
+    </div>
+</section>
+<!-- about end -->
+
+<!-- destination starts -->
+<section class="destination" id="destination">
+     <div class="heading">
+        <span>our destination</span>
+        <h1>make yours destination</h1>
+     </div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coastline.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Beaches & Coastlines</h3>
+                <p>Walk along the longest natural sea beach, watch golden sunsets, and unwind by the Bay of Bengal.
+                    Enjoy slow coastal days filled with sea breeze and open horizons.</p>
+                <a href="beaches.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+         
+        <div class="box">
+            <div class="image">
+                <img src="images/hills.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hill Tracts</h3>
+                <p>Discover scenic hills, lakes, and tribal culture in the Chittagong Hill Tracts.
+                    Ideal for nature lovers and quiet adventure seekers.</p>
+                <a href="hill-track.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/rivers.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rivers & Haors</h3>
+                <p>Journey through Bangladesh’s river life and vast haor regions, where water shapes daily living.
+                    Enjoy peaceful boat rides, open skies, and nature at its calmest.</p>
+                <a href="river-haor.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/forests.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Forests & Wildlife</h3>
+                <p>Discover dense forests, winding waterways, and unique wildlife across protected regions.
+                    Experience the raw beauty of nature away from busy cities.</p>
+                <a href="forest-wildlife.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/heritage.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Heritage & History</h3>
+                <p>Walk through ancient ruins, historic cities, and architectural landmarks of Bengal.
+                    Each place tells stories shaped by centuries of history.</p>
+                <a href="heritage.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/tea garden.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Tea Gardens & Highlands</h3>
+                <p>Wander through endless tea estates, green valleys, and misty landscapes.
+                    Sylhet and surrounding regions offer calm and refreshing escapes.</p>
+                <a href="highlands.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/north.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Northern Bangladesh</h3>
+                <p>Explore the calm landscapes, historic towns, and open plains of northern Bangladesh.
+                    Known for heritage sites, seasonal beauty, and peaceful journeys.</p>
+                <a href="north-bd.html">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- destination ends -->
+
+<!-- service- start -->
+<section class="services" id="services">
+    <div class="heading">
+        <span>our services</span>
+        <h1>countless experiences</h1>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <i class="fa-solid fa-people-group"></i>
+            <h3>Local Expertise</h3>
+            <p>Travel Bangladesh with local insights, trusted guides, and authentic experiences.
+                We know the routes, seasons, and hidden gems better than anyone.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>From hill treks in Bandarban to river journeys and forest trails.
+                Designed for explorers who want nature, culture, and thrill combined.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>Taste the true flavors of Bangladesh through local cuisine and traditions.
+                From street food to regional specialties, curated with care.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Handpicked Stays</h3>
+            <p>Comfortable hotels and eco-stays selected for safety, quality, and location.
+                We balance comfort with affordability for every journey.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-wallet"></i>
+            <h3>Transparent Pricing</h3>
+            <p>No hidden costs, no last-minute surprises.
+                Clear pricing that respects your budget and your experience.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>Real assistance before, during, and after your journey.
+                Our team is always one call or message away.</p>
+        </div>
+     </div>
+
+</section>
+<!-- service-end -->
+<!-- gallery section -->
+<section class="gallery" id="gallery">
+    <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="images/coxs_bazar.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Cox's Bazar</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/SaintMartin.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Saint Martin Island</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/Sajek.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Sajek Valley</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/nilgiri.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Nilgiri, Bandarban</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/rangamati.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Kaptai lake, Rangamati</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/ratargul.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Ratargul Swamp Forest</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/tanguar haor.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Tanguar Haor, Sunamgonj</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/ahsan manzil.jpg" alt="">
+            <span>Featured place</span>
+            <h3>Ahsan Manzil, Old Dhaka</h3>
+        </div>
+     </div>
+
+</section>
+<!-- gallery end -->
+
+<!-- Review start -->
+<section class="review">
+    <div class="content">
+        <span>Reviews</span>
+        <h3>What Our Travelers Say</h3>
+        <div class="review-summary">
+            <div class="summary-stars" aria-label="Overall rating 4.8 out of 5">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span class="summary-score">4.8</span>
+            </div>
+            <div class="summary-meta">2,147 verified reviews</div>
+          </div>          
+        <p>Real experiences from people who explored Bangladesh with us, from Cox’s Bazar sunsets to Sylhet’s tea gardens.
+            We focus on comfort, safety, and experiences that feel personal.</p>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="review-top">
+                <div class="stars" aria-label="Rating 5 out of 5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-text">5.0</span>
+              </div>
+            <p>“Smooth planning and friendly guides. Cox’s Bazar was perfectly timed for sunset and less crowd.”</p>
+            <div class="user">
+                 <img src="images/client.jpg" alt="">
+                 <div class="info">
+                    <h3>Nafisa Rahman</h3>
+                    <span>Dhaka</span>
+                 </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="review-top">
+                <div class="stars" aria-label="Rating 4.5 out of 5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span class="rating-text">4.5</span>
+              </div>
+            <p>“Loved the Sylhet trip. Tea gardens, Jaflong, and local food spots were all included.”</p>
+            <div class="user">
+                 <img src="images/client1.png" alt="">
+                 <div class="info">
+                    <h3>Tanvir Hossain</h3>
+                    <span>Chittagong</span>
+                 </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="review-top">
+                <div class="stars" aria-label="Rating 4 out of 5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <span class="rating-text">4.0</span>
+              </div>
+            <p>“Great service from booking to return. They helped us customize the itinerary for family.”</p>
+            <div class="user">
+                 <img src="images/client1.png" alt="">
+                 <div class="info">
+                    <h3>Rafiul Islam </h3>
+                    <span>Sylhet</span>
+                 </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="review-top">
+                <div class="stars" aria-label="Rating 5 out of 5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-text">5.0</span>
+              </div>
+            <p>“The Sundarbans tour felt safe and well organized. Boat, meals, and timing were managed nicely.”</p>
+            <div class="user">
+                 <img src="images/client.jpg" alt="">
+                 <div class="info">
+                    <h3>Sadia Ahmed</h3>
+                    <span>Rajshahi</span>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Review ends -->
+
+<!-- blogs -->
+<section class="blogs" id="blogs">
+    <div class="heading">
+        <span>blogs & posts</span>
+        <h1>Travel Stories & Guides</h1>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/blog1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="blog.html?post=sundarbans" class="link">Sundarbans First Timer Guide: Permits, Packing, and a Realistic 2-Day Plan</a>
+            <p>A practical checklist for your forest cruise, including permits, safety tips, and timing.</p>
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-clock"></i>
+                    <span>may, 2025</span> 
+                </a>
+                <a href="#"><i class="fa-solid fa-user"></i>
+                    <span>admin</span> 
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="blog.html?post=coxs-bazar-quiet-spots" class="link">Cox’s Bazar Without the Rush: Quiet Spots, Inani Timing, and a Clean 2-Day Flow</a>
+                <p>A calmer itinerary with timing tips to avoid peak crowds and still get the best sunsets.</p>
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-clock"></i>
+                    <span>June, 2025</span> 
+                </a>
+                <a href="#"><i class="fa-solid fa-user"></i>
+                    <span>admin</span> 
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog3.jpg" alt="">
+            </div>
+           <div class="content">
+            <a href="blog.html?post=sylhet-tea-weekend" class="link">Sylhet Tea Country Weekend: A Calm 48-Hour Route for Tea Gardens and River Views</a>
+            <p>A simple weekend route with a comfortable pace, ideal for families and relaxed travelers.</p>
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-clock"></i>
+                    <span>December, 2025</span> 
+                </a>
+                <a href="#"><i class="fa-solid fa-user"></i>
+                    <span>admin</span> 
+                </a>
+            </div>
+           </div>
+        </div>
+
+     </div>
+</section>
+<!-- blogs end -->
+
+<!-- banner section -->
+<div class="banner">
+    <div class="content">
+        <span>Ready for a Weekend Away?</span>
+        <h3>Because Weekends Deserve a Story</h3>
+        <p>Explore Bangladesh through thoughtfully planned journeys.</p>
+        <a href="#book-form" class="btn">book now</a>
+    </div>
+</div>
+<!-- banner ends -->
+
+<!-- footer starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="logo"> <img src="images/beach.png" alt="TripTonic logo" class="logo-icon">TripTonic</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, incidunt.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>    
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>home</span>
+              </a>
+
+              <a href="#about" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>about</span>
+              </a>
+
+              <a href="#destination" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>destination</span>
+              </a>
+              
+              <a href="#services" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>services</span>
+              </a>
+
+              <a href="#gallery" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>gallery</span>
+              </a>
+
+              <a href="#blogs" class="links">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>blogs</span>
+              </a>                 
+        </div>
+
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p>
+                <i class="fa-solid fa-map"></i>
+                <span>Dhaka, Bangladesh</span>
+              </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <span>+880 1XXX-XXXXXX</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope"></i>
+                <span>hello@triptonic.com</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-clock"></i>
+                <span>9:00am - 8:00pm</span>
+              </p>
+        </div>
+
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                 <input type="email" name="" placeholder="enter your email" class="email" id="">
+                 <input type="submit" value="subscribe" class="btn">
+
+            </form>
+        </div>
+
+    </div>
+</section>
+<div class="credit">
+    &copy; 2025 TripTonic. All rights reserved. <br>
+    Built with &hearts; by TripTonic Team
+</div>
+<!-- footer ends -->
+
+
+</body>
+</html>
