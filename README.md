@@ -70,6 +70,7 @@ triptonic-travel-website/
 * Add online payment functionality
 * Improve booking management
 
-## Nusrat Mahjabin
+## Author
 
-Your Name
+
+Nusrat Mahjabin
